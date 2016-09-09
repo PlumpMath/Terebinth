@@ -1,0 +1,28 @@
+{
+    "name": "terebinth",
+    "version": "0.0.1",
+    "dependencies": {
+        "body-parser": "latest",
+        "coffee-script": "latest",
+        "coffee-loader": "latest",
+        "express": "latest",
+        "gl-matrix": "2.3.2",
+        "iced-coffee-script": "latest",
+        "immutable": "latest",
+        "keymirror": "latest",
+        "lodash": "latest",
+        "shortid": "latest",
+        "node-uuid": "latest",
+        "normalizr": "latest",
+        "react": "15.3.1",
+        "react-dom": "15.3.1",
+        "rxjs": "latest",
+        "source-map-loader": "latest",
+        "superagent": "latest",
+        "wheel": "latest"
+    },
+    "devDependencies": {
+        "chai": "latest",
+        "webpack": "latest"
+    }
+}
