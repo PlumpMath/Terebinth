@@ -14,7 +14,12 @@ Working recently with React-Native, I was very impressed with flexbox CSS rules,
 ##### Redux out RxJs based solutions in.
 I love Redux for its simplicity and effectiveness, but really want to see if there isn't something that can help us wire up our state management with less boilerplate.  _And_ I really want to learn and master Functional-Reactive-Programming (FRP) generally.  Big scary acronym and buzzword, but the ideas behind it hold great promise and so in all my side projects I'm crash-coursing [rxjs](http://reactivex.io/rxjs/).
 
+##### That means no Redux-router
 
+Since there won't be Redux, there won't be Redux router, which means making a home-rolled routing setup using the BrowserHistory API.  One great feature about the yari-ashi-zero site was the dynamic webpack definitions and routing, that if I wanted to add a blog entry, I just needed to create the file, and all the routing and even additions to the index page would happen as if by magic.  We need to see if we can replicate this efficiency in the new build pattern, whatever that turns out to be.  
+
+dynamic requires:
+See the yari-ashi-zero repo and look in `routes.coffee`, to see the dynamic requires `require.context`
 
 
 ### Possible R&D
